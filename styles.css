@@ -1,0 +1,166 @@
+.img {
+    background-image: url(https://www.eschoolnews.com/files/2022/12/computer-science-education-computer-science-classes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    text-shadow: 2px 2px 2px rgb(47, 186, 255);
+    text-decoration: underline black;
+}
+
+.nav {
+    margin-left: 25%;
+    margin-top: 60px;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(223, 234, 235);
+    border-radius: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.nav a {
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(47, 186, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a:hover {
+    font-size: 25px;
+}
+
+.profile {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 45%;
+}
+
+#about, #experience, #project, #education, #contact, #skills {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#about {
+    top: 600px;
+}
+
+#experience {
+    top: 950px;
+}
+
+#project {
+    top: 1400px;
+}
+
+#education {
+    top: 1700px;
+}
+
+#skills {
+    top: 1905px;
+}
+
+#contact {
+    top: 2200px;
+}
+
+.container {
+    border-radius: 30px;
+    position: relative;
+    left: 25%;
+    padding: 10px;
+    width: 600px;
+}
+
+.container:hover {
+    background-color: #edf5f8;
+    text-shadow: 1px 1px 1px rgb(47, 186, 255);
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Social Media Links Section */
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.social-links a {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 40px; /* Increase the size of icons */
+    color: white; /* Change icon color to white */
+}
+
+.social-icon-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Rounded icons */
+    color: white; /* Change icon color to white */
+}
+
+
+.skill-box {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-box p {
+    margin-top: 10px;
+}
+/* Style for the "Connect with Me" button */
+.connect-btn {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(10, 10, 10);
+    padding: 3px 10px;  /* Smaller padding */
+    font-size: 14px;  /* Reduced font size */
+    border-radius: 12px;  /* Slightly smaller border radius */
+    text-decoration: none;
+    margin-bottom: 10px;  /* Reduced margin */
+}
+
+.connect-btn:hover {
+    background-color: rgb(48, 48, 49);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Social Media Links */
+.social-links a {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px; /* Larger icons */
+    color: rgb(250, 245, 245); /* Icon color */
+}
+
